@@ -11,6 +11,7 @@ function drag(id){
 
 		document.ommousemove = function(e){
 			obj.style.top = e.pageY + "px";
+			obj.style.color = "red";
 			obj.style.left = e.pageX + "px";
 		}
 	}
