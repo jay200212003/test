@@ -10,7 +10,7 @@ function drag(id){
 		disY = e.pageY - obj.offsetTop;
 
 		document.ommousemove = function(e){
-			obj.style.top = e.pageY + "px";
+			obj.style.top = e.pageY*1 + "px";
 			obj.style.left = e.pageX + "px";
 		}
 	}
