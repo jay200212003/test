@@ -1,5 +1,5 @@
 function drag(id){
-	//author zyx
+	//author zyx new
 	var obj = document.getElementById(id);
 	var disX = 0;
 	var disY = 0;
@@ -10,6 +10,7 @@ function drag(id){
 		disY = e.pageY - obj.offsetTop;
 
 		document.ommousemove = function(e){
+			obj.style.top = e.pageY + "px";
 			obj.style.left = e.pageX + "px";
 		}
 	}
