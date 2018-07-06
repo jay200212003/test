@@ -1,4 +1,5 @@
 function drag(id){
+	//author zyx
 	var obj = document.getElementById(id);
 	var disX = 0;
 	var disY = 0;
